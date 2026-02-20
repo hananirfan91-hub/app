@@ -306,7 +306,7 @@ export default function Home() {
                 <div className="relative aspect-video bg-gradient-to-br from-[#6c5dd3]/30 to-[#ff9ec7]/20 rounded-2xl overflow-hidden border border-[#2b2b3a]">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <a 
-                      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+                      href="https://youtube.com/shorts/9aTOO_PHFNs?feature=share" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-20 h-20 bg-[#6c5dd3] rounded-full flex items-center justify-center hover:bg-[#5a4dc0] transition-colors group"
@@ -494,7 +494,7 @@ export default function Home() {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                src="https://youtube.com/shorts/9aTOO_PHFNs?feature=share"
                 title="Hanan Irfan Digital Group - Our Services"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -555,7 +555,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center justify-center gap-8 text-[#b0b0c8]">
               <div className="flex items-center gap-2">
                 <Globe className="w-5 h-5 text-[#6c5dd3]" />
-                <span className="text-sm">Serving 20+ Countries</span>
+                <span className="text-sm">Serving in Pakistan</span>
               </div>
               <div className="flex items-center gap-2">
                 <Users className="w-5 h-5 text-[#6c5dd3]" />
