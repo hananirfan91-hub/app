@@ -43,7 +43,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://facebook.com/hananirfan91"
+              href="https://facebook.com/HananIrfan001"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-[#15151f] border border-[#2b2b3a] flex items-center justify-center text-[#b0b0c8] hover:text-white hover:border-[#6c5dd3] hover:bg-[#6c5dd3]/20 transition-all"
@@ -51,7 +51,7 @@ export default function Footer() {
                 <Facebook size={18} />
               </a>
               <a
-                href="https://instagram.com/hananirfan91"
+               href="https://instagram.com/tearswithhanan/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-[#15151f] border border-[#2b2b3a] flex items-center justify-center text-[#b0b0c8] hover:text-white hover:border-[#6c5dd3] hover:bg-[#6c5dd3]/20 transition-all"
@@ -59,7 +59,7 @@ export default function Footer() {
                 <Instagram size={18} />
               </a>
               <a
-                href="https://youtube.com/@hananirfan91"
+                href="https://www.youtube.com/@ancientmystery-0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-[#15151f] border border-[#2b2b3a] flex items-center justify-center text-[#b0b0c8] hover:text-white hover:border-[#6c5dd3] hover:bg-[#6c5dd3]/20 transition-all"
