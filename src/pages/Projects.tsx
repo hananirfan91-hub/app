@@ -38,7 +38,7 @@ const projects: Project[] = [
     category: 'websites',
     tags: ['Web Development', 'React', 'Firebase', 'Islamic Content', 'SEO'],
     image: '/project-hadith.jpg',
-    link: 'https://hadithwisdomhub.web.app',
+    link: 'https://hadithwisdomhub0.vercel.app',
     results: '10,000+ monthly active users, 95% user satisfaction'
   },
   {
@@ -49,7 +49,7 @@ const projects: Project[] = [
     category: 'websites',
     tags: ['Web Development', 'Portfolio', 'React', 'Responsive Design', 'GSAP'],
     image: '/project-portfolio.jpg',
-    link: '#',
+    link: 'https://hananirfanportfolio.vercel.app',
     results: 'Top Google rankings for key service keywords'
   },
   {
@@ -60,8 +60,8 @@ const projects: Project[] = [
     category: 'websites',
     tags: ['Web Tool', 'JavaScript', 'Image Processing', 'Free Tool', 'Utility'],
     image: '/project-resizer.jpg',
-    link: '#',
-    results: '50,000+ images processed monthly'
+    link: 'https://image-resizer0.vercel.app',
+    results: '1,000+ images processed monthly'
   },
   {
     id: 4,
@@ -71,7 +71,7 @@ const projects: Project[] = [
     category: 'websites',
     tags: ['Web Development', 'Business Website', 'Corporate', 'Lead Generation'],
     image: '/project-quickworks.jpg',
-    link: '#',
+    link: 'https://quickworkitcenter.lovable.app',
     results: '40% increase in client inquiries'
   },
   {
@@ -82,7 +82,7 @@ const projects: Project[] = [
     category: 'websites',
     tags: ['Web Development', 'Blog', 'SEO', 'Content Management', 'React'],
     image: '/project-blog.jpg',
-    link: '#',
+    link: 'https://aiblogs0.vercel.app',
     results: '200% increase in organic traffic'
   },
   {
@@ -166,17 +166,17 @@ const categories: { value: Category; label: string; icon: typeof Code }[] = [
 ];
 
 const stats = [
-  { icon: Award, value: '1000+', label: 'Projects Completed' },
-  { icon: Users, value: '500+', label: 'Happy Clients' },
+  { icon: Award, value: '500+', label: 'Projects Completed' },
+  { icon: Users, value: '300+', label: 'Happy Clients' },
   { icon: TrendingUp, value: '98%', label: 'Success Rate' },
-  { icon: Eye, value: '5M+', label: 'Total Reach' },
+ 
 ];
 
 const portfolioSchema = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
   name: 'Our Portfolio - Web Design, Graphic Design, Video Projects Pakistan',
-  description: 'Explore our portfolio of 1000+ successful projects across web development, graphic design, video editing, and digital marketing. See real results and case studies from Pakistan\'s leading digital agency.',
+  description: 'Explore our portfolio of 500+ successful projects across web development, graphic design, video editing, and digital marketing. See real results and case studies from Pakistan\'s leading digital agency.',
   url: 'https://hidigitalgroup.vercel.app/projects',
   image: 'https://hidigitalgroup.vercel.app/portfolio-og.jpg',
   hasPart: projects.map((project) => ({
@@ -197,8 +197,8 @@ const videoSchema = {
   thumbnailUrl: 'https://hidigitalgroup.vercel.app/portfolio-video-thumb.jpg',
   uploadDate: '2024-01-25',
   duration: 'PT5M00S',
-  contentUrl: 'https://www.youtube.com/embed/portfolio-showcase',
-  embedUrl: 'https://www.youtube.com/embed/portfolio-showcase'
+  contentUrl: 'https://www.youtube.com/@ancientmystery-0',
+  embedUrl: 'https://www.youtube.com/@ancientmystery-0'
 };
 
 export default function Projects() {
@@ -233,7 +233,7 @@ export default function Projects() {
   return (
     <>
       <SEO 
-        title="Our Portfolio - 1000+ Projects | Web Design, Graphic Design Pakistan"
+        title="Our Portfolio - 500+ Projects | Web Design, Graphic Design Pakistan"
         description="View our portfolio of 1000+ successful projects. Web development, graphic design, video editing, SEO campaigns with proven results. Pakistan's leading digital agency portfolio. See real case studies and client success stories."
         keywords="portfolio Pakistan, web design portfolio, graphic design portfolio, video editing projects, SEO case studies, website examples, design showcase, Pakistan freelancer portfolio, web development projects, logo design portfolio, YouTube thumbnail portfolio, digital marketing case studies, successful projects Pakistan, best digital agency portfolio, creative work showcase"
         canonical="https://hidigitalgroup.vercel.app/projects"
@@ -257,7 +257,7 @@ export default function Projects() {
             <h1 className="animate-in text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight mb-4 sm:mb-6">
               Our Portfolio —{' '}
               <span className="bg-gradient-to-r from-[#6c5dd3] via-[#b2a5ff] to-[#ff9ec7] bg-clip-text text-transparent">
-                1000+ Projects
+                500+ Projects
               </span>{' '}
               Delivered
             </h1>
@@ -393,7 +393,7 @@ export default function Projects() {
 
             <div className="animate-in mt-8 text-center">
               <a 
-                href="https://youtube.com/@hananirfan91" 
+                href="https://www.youtube.com/@ancientmystery-0" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-[#b2a5ff] hover:text-white transition-colors"
