@@ -47,10 +47,10 @@ const coreValues = [
 ];
 
 const stats = [
-  { value: '500+', label: 'Projects Completed' },
+  { value: '200+', label: 'Projects Completed' },
   { value: '120+', label: 'Happy Clients' },
   { value: '98%', label: 'Success Rate' },
-  { value: 'Reach%', label: 'All over Pakistan' },
+  { value: 'Reach', label: 'All over Pakistan' },
  
 ];
 
