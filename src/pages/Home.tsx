@@ -133,20 +133,20 @@ const howItWorks = [
 const testimonials = [
   {
     quote: "Hanan Irfan Digital Group transformed our online presence completely. Their web development and SEO services helped us rank #1 on Google and reach new customers globally. Highly recommended!",
-    author: "Ahmed Khan",
-    role: "CEO, Dubai Business Solutions",
+    author: "Ashir",
+    role: "Amazon Worker",
     rating: 5
   },
   {
     quote: "The team delivered exceptional graphic design work for our marketing campaign. Fast, professional, and exactly what we needed. Our social media engagement increased by 300%!",
-    author: "Sarah Malik",
+    author: "Muhammad Shumail",
     role: "Marketing Director, Lahore",
     rating: 5
   },
   {
     quote: "Outstanding video editing services! They turned our raw footage into professional content that boosted our YouTube channel subscribers from 1K to 50K in just 3 months.",
     author: "Mohammad Ali",
-    role: "Content Creator, Karachi",
+    role: "Muhammad Shahmerr, Mulatn",
     rating: 5
   },
 ];
