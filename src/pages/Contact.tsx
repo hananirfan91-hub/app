@@ -52,23 +52,20 @@ const faqs = [
   },
   {
     question: 'What are your payment terms and methods?',
-    answer: 'We require 50% advance payment to begin work, with the remaining 50% due upon completion. We accept bank transfers, EasyPaisa, JazzCash, PayPal, Wise, and cryptocurrency. All payments are secure and we provide detailed invoices for every transaction.',
+    answer: 'We require 50% advance payment to begin work, with the remaining 50% due upon completion. We accept bank transfers, EasyPaisa, JazzCash . All payments are secure and we provide detailed invoices for every transaction.',
   },
   {
     question: 'Do you offer unlimited revisions?',
     answer: 'Yes, we offer unlimited revisions on all design and development projects until you are completely satisfied. Your satisfaction is our top priority. We work closely with you through each revision cycle to ensure the final result exceeds your expectations.',
   },
-  {
-    question: 'Can you work with international clients?',
-    answer: 'Absolutely! We work with clients from USA, UK, Canada, UAE, Australia, and worldwide. We communicate via WhatsApp, email, and video calls. Our team is available across time zones and we have successfully completed 500+ international projects.',
-  },
+
   {
     question: 'Is my project information kept confidential?',
     answer: 'Yes, we take data privacy very seriously. We can sign NDAs (Non-Disclosure Agreements) for sensitive projects. All client information, project files, and communications are kept strictly confidential and never shared with third parties.',
   },
   {
     question: 'Why should I choose Hanan Irfan Digital Group?',
-    answer: 'With 5+ years of experience, 1000+ completed projects, and a 98% client satisfaction rate, we deliver quality results on time. Our team combines creativity with technical expertise, offering affordable pricing without compromising quality. We provide 24/7 support and free consultations.',
+    answer: 'With 2+ years of experience, 500+ completed projects, and a 98% client satisfaction rate, we deliver quality results on time. Our team combines creativity with technical expertise, offering affordable pricing without compromising quality. We provide 24/7 support and free consultations.',
   },
 ];
 
@@ -287,7 +284,7 @@ export default function Contact() {
                         Abu Dhabi Road, Near Chenab College,<br />
                         Rahim Yar Khan, Punjab, Pakistan 64200
                       </p>
-                      <p className="text-[#666] text-xs mt-1">Serving clients worldwide</p>
+                      <p className="text-[#666] text-xs mt-1">Serving clients all over Pakistan</p>
                     </div>
                   </div>
 
@@ -312,7 +309,7 @@ export default function Contact() {
                       <h3 className="text-white font-medium mb-1 text-sm sm:text-base">Service Areas</h3>
                       <p className="text-[#b0b0c8] text-sm sm:text-base">
                         Pakistan: Rahim Yar Khan, Lahore, Karachi, Islamabad<br />
-                        International: USA, UK, Canada, UAE, Australia, Worldwide
+                        
                       </p>
                     </div>
                   </div>
@@ -323,7 +320,7 @@ export default function Contact() {
                   <h3 className="text-white font-medium mb-3 sm:mb-4 text-sm sm:text-base">Connect With Us on Social Media</h3>
                   <div className="flex gap-2 sm:gap-3">
                     <a
-                      href="https://facebook.com/hananirfan91"
+                      href="https://facebook.com/HananIrfan001"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Follow Hanan Irfan on Facebook"
@@ -332,7 +329,7 @@ export default function Contact() {
                       <Facebook size={16} className="sm:w-[18px] sm:h-[18px]" />
                     </a>
                     <a
-                      href="https://instagram.com/hananirfan91"
+                      href="https://instagram.com/tearswithhanan/"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Follow Hanan Irfan on Instagram"
@@ -341,7 +338,7 @@ export default function Contact() {
                       <Instagram size={16} className="sm:w-[18px] sm:h-[18px]" />
                     </a>
                     <a
-                      href="https://youtube.com/@hananirfan91"
+                      href="https://www.youtube.com/@ancientmystery-0"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Subscribe to Hanan Irfan on YouTube"
@@ -473,7 +470,7 @@ export default function Contact() {
                 See How We Transform Businesses Digitally
               </h2>
               <p className="animate-in text-[#b0b0c8] text-sm sm:text-base max-w-2xl mx-auto">
-                Watch this video to learn more about our services, process, and how we&apos;ve helped 1000+ clients achieve their digital goals.
+                Watch this video to learn more about our services, process, and how we&apos;ve helped our clients achieve their digital goals.
               </p>
             </div>
 
@@ -492,7 +489,7 @@ export default function Contact() {
 
             <div className="animate-in mt-8 text-center">
               <a 
-                href="https://youtube.com/@hananirfan91" 
+                href="https://www.youtube.com/@ancientmystery-0" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-[#b2a5ff] hover:text-white transition-colors"
@@ -543,8 +540,8 @@ export default function Contact() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {[
-                { title: '5+ Years Experience', desc: 'Proven track record in digital services' },
-                { title: '1000+ Projects', desc: 'Successfully delivered worldwide' },
+                { title: '2+ Years Experience', desc: 'Proven track record in digital services' },
+                { title: '500+ Projects', desc: 'Successfully delivered worldwide' },
                 { title: '98% Satisfaction', desc: 'Happy clients across the globe' },
                 { title: '24/7 Support', desc: 'Always available for your needs' },
                 { title: 'Affordable Pricing', desc: 'Quality services at fair rates' },
