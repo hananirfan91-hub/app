@@ -176,9 +176,9 @@ export default function Home() {
     '@type': 'ProfessionalService',
     name: 'Hanan Irfan Digital Group',
     description: 'Pakistan\'s leading digital agency offering graphic design, web development, SEO, video editing, and content writing services.',
-    url: 'https://hidigitalgroup.vercel.app/',
-    logo: 'https://hidigitalgroup.vercel.app/logo.png',
-    image: 'https://hidigitalgroup.vercel.app/og-image.png',
+    url: 'https://hananirfandigital.vercel.app/',
+    logo: 'https://hananirfandigital.vercel.app/logo.png',
+    image: 'https://hananirfandigital.vercel.app/og-image.png',
     telephone: '+92-310-6359235',
     email: 'hananirfan91@gmail.com',
     address: {
@@ -225,11 +225,11 @@ export default function Home() {
       reviewCount: '120'
     },
     sameAs: [
-      'https://facebook.com/hananirfan91',
-      'https://instagram.com/hananirfan91',
-      'https://youtube.com/@hananirfan91',
-      'https://linkedin.com/in/hananirfan91',
-      'https://twitter.com/hananirfan91'
+      'https://facebook.com/HananIrfan001',
+      'https://instagram.com/tearswithhanan/',
+      'https://www.youtube.com/@ancientmystery-0',
+      
+      'https://x.com/hananirfan91'
     ]
   };
 
