@@ -102,15 +102,7 @@ To exercise these rights, please contact us using the information provided at th
 
 If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately so we can take appropriate action.`,
   },
-  {
-    id: 'international-transfers',
-    title: '9. International Data Transfers',
-    content: `Your information may be transferred to and maintained on computers located outside of your state, province, country, or other governmental jurisdiction where data protection laws may differ from those in your jurisdiction.
-
-If you are located outside Pakistan and choose to provide information to us, please note that we transfer the data to Pakistan and process it there. Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
-
-We ensure appropriate safeguards are in place for international transfers.`,
-  },
+ 
   {
     id: 'data-retention',
     title: '10. Data Retention Policy',
