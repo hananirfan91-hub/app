@@ -491,16 +491,15 @@ export default function Home() {
             </div>
             
             <div className="relative aspect-video bg-[#15151f] border border-[#2b2b3a] rounded-2xl overflow-hidden">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://youtube.com/shorts/9aTOO_PHFNs?feature=share"
-                title="Hanan Irfan Digital Group - Our Services"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="absolute inset-0"
-              ></iframe>
+             <iframe 
+    width="315" 
+    height="560" 
+    src="https://www.youtube.com/embed/9aTOO_PHFNs" 
+    title="YouTube Shorts video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+</iframe>
             </div>
           </div>
         </section>
