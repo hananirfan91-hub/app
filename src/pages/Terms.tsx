@@ -49,7 +49,7 @@ If you are using our services on behalf of an organization, you represent that y
   {
     id: 'quotations',
     title: '4. Quotations and Pricing',
-    content: `All prices quoted are in USD (US Dollars) unless otherwise specified. Quotes are valid for 30 days from the date of issue unless otherwise stated.
+    content: `All prices quoted are depend on Communication unless otherwise specified. Quotes are valid for 30 days from the date of issue unless otherwise stated.
 
 Pricing depends on:
 • Project complexity and scope of work
@@ -66,14 +66,10 @@ We reserve the right to revise quotes if project requirements change significant
     content: `Payment Structure:
 • A 50% deposit is required before work begins on any project
 • The remaining 50% is due upon project completion and client approval
-• For projects exceeding $1000, milestone-based payments may be arranged
 • Rush orders may require full payment upfront
 
 Accepted Payment Methods:
 • Bank Transfer (all major Pakistani banks)
-• PayPal (for international clients)
-• Wise (TransferWise) for low-cost international transfers
-• Cryptocurrency (Bitcoin, Ethereum, USDT)
 • JazzCash/EasyPaisa (for Pakistan-based clients)
 
 Late Payment Policy:
@@ -202,18 +198,10 @@ Upon termination:
 
 You may terminate services by providing written notice. Refunds will be processed according to our refund policy.`,
   },
-  {
-    id: 'governing-law',
-    title: '12. Governing Law and Jurisdiction',
-    content: `These Terms shall be governed by and construed in accordance with the laws of Pakistan, without regard to its conflict of law provisions.
 
-Any legal action or proceeding arising under these Terms will be brought exclusively in the courts located in Rahim Yar Khan, Punjab, Pakistan, and you consent to personal jurisdiction and venue in such courts.
-
-For international clients, we encourage amicable resolution of disputes before pursuing legal action. Alternative dispute resolution methods may be used where appropriate.`,
-  },
   {
     id: 'dispute-resolution',
-    title: '13. Dispute Resolution Process',
+    title: '12. Dispute Resolution Process',
     content: `In the event of any dispute:
 
 1. Negotiation: Both parties agree to first attempt to resolve the dispute through good-faith negotiation for at least 30 days
@@ -221,12 +209,11 @@ For international clients, we encourage amicable resolution of disputes before p
 3. Arbitration: If mediation fails, disputes will be resolved through binding arbitration in Rahim Yar Khan, Pakistan
 
 We prefer amicable resolution and will always attempt to address your concerns before any formal proceedings. Our goal is to maintain positive relationships with all clients.
-
-For disputes under $500, we may waive formal proceedings and seek direct resolution.`,
+`,
   },
   {
     id: 'changes',
-    title: '14. Changes to Terms and Conditions',
+    title: '13. Changes to Terms and Conditions',
     content: `We reserve the right to modify these Terms at any time. Changes will be effective immediately upon posting on our website.
 
 Your continued use of our services after any changes indicates your acceptance of the modified Terms. We encourage you to review these Terms periodically.
@@ -240,7 +227,7 @@ Last Updated: February 2026`,
   },
   {
     id: 'contact',
-    title: '15. Contact Information',
+    title: '14. Contact Information',
     content: `If you have any questions about these Terms and Conditions, please contact us:
 
 Email: hananirfan91@gmail.com
