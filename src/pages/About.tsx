@@ -9,7 +9,7 @@ const storyCards = [
   {
     icon: Heart,
     title: 'Our Story',
-    description: 'Founded in 2020 in Rahim Yar Khan, Pakistan, Hanan Irfan Digital Group began with a simple mission: to provide high-quality digital services at affordable prices. What started as a small freelance operation has grown into a full-service digital agency serving clients across Pakistan, UAE, USA, UK, Canada, Australia, and beyond.',
+    description: 'Founded in 2020 in Rahim Yar Khan, Pakistan, Hanan Irfan Digital Group began with a simple mission: to provide high-quality digital services at affordable prices. What started as a small freelance operation has grown into a full-service digital agency serving clients across all over Pakistan currently.',
   },
   {
     icon: Target,
@@ -50,15 +50,15 @@ const stats = [
   { value: '500+', label: 'Projects Completed' },
   { value: '120+', label: 'Happy Clients' },
   { value: '98%', label: 'Success Rate' },
-  { value: '20+', label: 'Countries Served' },
+ 
 ];
 
 const milestones = [
-  { year: '2020', title: 'Company Founded', description: 'Started as a freelance operation in Rahim Yar Khan' },
-  { year: '2021', title: 'First 50 Clients', description: 'Expanded services to include web development and SEO' },
-  { year: '2022', title: 'International Expansion', description: 'Started serving clients in UAE, USA, and UK' },
-  { year: '2023', title: '500+ Projects', description: 'Reached milestone of 500 completed projects' },
-  { year: '2024', title: 'Full-Service Agency', description: 'Expanded team and service offerings' },
+  { year: '2024', title: 'Company Founded', description: 'Started as a freelance operation in Rahim Yar Khan' },
+  { year: '2024', title: 'First 50 Clients', description: 'Expanded services to include web development and SEO' },
+
+  { year: '2026', title: '200+ Projects', description: 'Reached milestone of 500 completed projects' },
+  { year: '2026', title: 'Full-Service Agency', description: 'Expanded team and service offerings' },
 ];
 
 export default function About() {
@@ -98,10 +98,10 @@ export default function About() {
         addressCountry: 'PK'
       },
       sameAs: [
-        'https://facebook.com/hananirfan91',
-        'https://instagram.com/hananirfan91',
-        'https://youtube.com/@hananirfan91',
-        'https://linkedin.com/in/hananirfan91'
+        'https://facebook.com/HananIrfan001',
+        'https://instagram.com/tearswithhanan/',
+        'https://www.youtube.com/@ancientmystery-0',
+        'https://x.com/hananirfan91'
       ]
     }
   };
@@ -133,7 +133,7 @@ export default function About() {
               & Digital Partners
             </h1>
             <p className="animate-in text-lg text-[#b0b0c8] max-w-2xl mx-auto">
-              Founded in Rahim Yar Khan, Pakistan, we serve clients worldwide with passion, precision, and a commitment to excellence in every project we undertake.
+              Founded in Rahim Yar Khan, Pakistan, we serve clients with passion, precision, and a commitment to excellence in every project we undertake.
             </p>
           </div>
         </section>
@@ -175,31 +175,7 @@ export default function About() {
         </section>
 
         {/* Video Section */}
-        <section className="py-20 lg:py-28 bg-[#15151f] px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-10">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-                Meet Our Team
-              </h2>
-              <p className="text-[#b0b0c8]">
-                Watch this video to learn more about who we are and what drives us
-              </p>
-            </div>
-            
-            <div className="relative aspect-video bg-[#0b0b12] border border-[#2b2b3a] rounded-2xl overflow-hidden">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="About Hanan Irfan Digital Group"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="absolute inset-0"
-              ></iframe>
-            </div>
-          </div>
-        </section>
+       
 
         {/* Core Values Section */}
         <section className="py-20 lg:py-28 bg-[#0b0b12] px-4 sm:px-6 lg:px-8">
@@ -283,7 +259,7 @@ export default function About() {
                     <CheckCircle className="w-6 h-6 text-[#6c5dd3] mt-0.5 flex-shrink-0" />
                     <div>
                       <h4 className="text-white font-medium">Experienced Team</h4>
-                      <p className="text-sm text-[#b0b0c8]">5+ years of industry experience across all services</p>
+                      <p className="text-sm text-[#b0b0c8]">2+ years of industry experience across all services</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -296,8 +272,8 @@ export default function About() {
                   <div className="flex items-start gap-4">
                     <CheckCircle className="w-6 h-6 text-[#6c5dd3] mt-0.5 flex-shrink-0" />
                     <div>
-                      <h4 className="text-white font-medium">Global Reach</h4>
-                      <p className="text-sm text-[#b0b0c8]">Serving clients in 20+ countries worldwide</p>
+                      <h4 className="text-white font-medium">Whole Pakistan Reach</h4>
+                      <p className="text-sm text-[#b0b0c8]">Serving clients all over Pakistan</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -322,8 +298,8 @@ export default function About() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="p-6 bg-[#15151f] border border-[#2b2b3a] rounded-2xl text-center">
                   <Globe className="w-10 h-10 text-[#6c5dd3] mx-auto mb-3" />
-                  <h4 className="text-white font-medium">Global Clients</h4>
-                  <p className="text-sm text-[#b0b0c8]">20+ Countries</p>
+                  <h4 className="text-white font-medium">Clients</h4>
+                  <p className="text-sm text-[#b0b0c8]">All over Pakistan Countries</p>
                 </div>
                 <div className="p-6 bg-[#15151f] border border-[#2b2b3a] rounded-2xl text-center">
                   <Star className="w-10 h-10 text-[#6c5dd3] mx-auto mb-3" />
