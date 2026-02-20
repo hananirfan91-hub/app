@@ -478,10 +478,12 @@ export default function Home() {
         </section>
 
         {/* Video Section */}
-        <section className="py-20 lg:py-28 bg-[#0b0b12] px-4 sm:px-6 lg:px-8">
+       <section className="py-20 lg:py-28 bg-[#0b0b12] px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-10">
-              <span className="inline-block text-[#b2a5ff] text-sm font-medium mb-4">Watch & Learn</span>
+              <span className="inline-block text-[#b2a5ff] text-sm font-medium mb-4">
+                Watch & Learn
+              </span>
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
                 See Our Work in Action
               </h2>
@@ -489,18 +491,28 @@ export default function Home() {
                 Watch this short video to learn more about our services and how we can help your business grow.
               </p>
             </div>
-            
-            <div className="relative aspect-video bg-[#15151f] border border-[#2b2b3a] rounded-2xl overflow-hidden">
-             <iframe 
-    width="315" 
-    height="560" 
-    src="https://www.youtube.com/embed/9aTOO_PHFNs" 
-    title="YouTube Shorts video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
-</iframe>
+
+            {/* Responsive 9:16 YouTube Shorts Embed */}
+            <div className="relative w-full max-w-md mx-auto">
+              <div style={{ position: "relative", paddingBottom: "177.77%", height: 0 }}>
+                <iframe
+                  src="https://www.youtube.com/embed/9aTOO_PHFNs"
+                  title="YouTube Shorts video player"
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%",
+                    borderRadius: "16px"
+                  }}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
+
           </div>
         </section>
 
