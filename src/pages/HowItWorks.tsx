@@ -111,7 +111,7 @@ const features = [
   {
     icon: Award,
     title: 'Expert Quality',
-    description: '5+ years of experience delivering 1000+ successful projects. Quality craftsmanship you can trust.',
+    description: '2+ years of experience delivering 500+ successful projects. Quality craftsmanship you can trust.',
   },
 ];
 
@@ -122,7 +122,7 @@ const faqs = [
   },
   {
     question: 'What are your payment terms and methods?',
-    answer: 'We require a 50% deposit to begin work, with the remaining 50% due upon project completion and your approval. For larger projects over $1000, we can arrange milestone-based payments. We accept bank transfers, EasyPaisa, JazzCash, PayPal, Wise, and cryptocurrency.',
+    answer: 'We require a 50% deposit to begin work, with the remaining 50% due upon project completion and your approval. For larger projects Depends on Deal, we can arrange milestone-based payments. We accept bank transfers, EasyPaisa, JazzCash.',
   },
   {
     question: 'What if I am not satisfied with the work?',
@@ -134,11 +134,11 @@ const faqs = [
   },
   {
     question: 'What file formats will I receive upon completion?',
-    answer: 'We provide all relevant source files and export formats based on your needs. For design work: PSD, AI, EPS, PNG, JPG, SVG, PDF. For web projects: complete source code with documentation. For video: MP4, MOV, project files. You own all rights to the delivered work.',
+    answer: 'We provide all relevant source files and export formats based on your needs. For design work: PSD, AI, PNG, JPG, SVG, PDF. For web projects: complete source code with documentation. For video: MP4, MOV, project files. You own all rights to the delivered work.',
   },
   {
     question: 'Can I see samples of your previous work?',
-    answer: 'Absolutely! Visit our Projects page to see our complete portfolio, or contact us for specific examples related to your project type. We have completed 1000+ projects across various industries and are happy to share relevant case studies.',
+    answer: 'Absolutely! Visit our Projects page to see our complete portfolio, or contact us for specific examples related to your project type. We have completed 500+ projects across various industries and are happy to share relevant case studies.',
   },
   {
     question: 'Do you offer ongoing maintenance and support?',
@@ -330,7 +330,7 @@ export default function HowItWorks() {
 
             <div className="animate-in mt-8 text-center">
               <a 
-                href="https://youtube.com/@hananirfan91" 
+                href="https://www.youtube.com/@ancientmystery-0" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-[#b2a5ff] hover:text-white transition-colors"
