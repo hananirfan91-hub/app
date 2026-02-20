@@ -34,7 +34,7 @@ const mainServices = [
       '100% original designs'
     ],
     keywords: 'graphic design Pakistan, logo design services, brand identity design, social media graphics, banner design, poster design, business cards, infographics, UI UX design',
-    price: 'Starting from $50'
+    price: 'Depend on Order'
   },
   {
     id: 'web-development',
@@ -46,7 +46,7 @@ const mainServices = [
       'Responsive Website Design',
       'Landing Pages that Convert',
       'E-commerce Solutions (Shopify, WooCommerce)',
-      'WordPress Development',
+      
       'Custom Web Applications',
       'Website Maintenance & Support',
       'Website Redesign Services',
@@ -55,11 +55,11 @@ const mainServices = [
     benefits: [
       'Mobile-friendly design',
       'SEO optimized code',
-      'Fast loading speed',
-      'Secure & reliable hosting'
+      'Fast loading speed'
+      
     ],
     keywords: 'web development Pakistan, website design, WordPress developer, landing page design, e-commerce website, custom web apps, responsive web design',
-    price: 'Starting from $200'
+    price: 'Depend on Deal'
   },
   {
     id: 'seo-services',
@@ -84,7 +84,7 @@ const mainServices = [
       'Long-term results'
     ],
     keywords: 'SEO services Pakistan, search engine optimization, keyword research, on-page SEO, off-page SEO, technical SEO, local SEO, Google ranking',
-    price: 'Starting from $150/month'
+    price: 'Depend on Agreement'
   },
   {
     id: 'video-editing',
@@ -109,7 +109,7 @@ const mainServices = [
       'All formats supported'
     ],
     keywords: 'video editing Pakistan, YouTube video editor, social media videos, promotional video editing, motion graphics, video post-production',
-    price: 'Starting from $30'
+    price: 'Depend on Deal'
   },
   {
     id: 'content-writing',
@@ -134,7 +134,7 @@ const mainServices = [
       'Quick delivery'
     ],
     keywords: 'content writing Pakistan, SEO content writer, blog writing services, website copywriting, product descriptions, creative writing',
-    price: 'Starting from $20'
+    price: 'Depend on Order'
   },
   {
     id: 'presentations',
@@ -159,7 +159,7 @@ const mainServices = [
       'Editable templates'
     ],
     keywords: 'presentation design services, PowerPoint designer, pitch deck creation, corporate presentation, Google Slides, animated presentations',
-    price: 'Starting from $40'
+    price: 'Depend on Communication'
   }
 ];
 
@@ -168,19 +168,19 @@ const additionalServices = [
     icon: Image,
     title: 'YouTube Thumbnails',
     description: 'Click-worthy thumbnails that boost CTR',
-    price: 'From $10'
+    price: 'Depend on Order'
   },
   {
     icon: FileText,
     title: 'Microsoft Office',
     description: 'Word, Excel, PowerPoint documents',
-    price: 'From $15'
+    price: 'Depend on Order'
   },
   {
     icon: BookOpen,
     title: 'Academic Help',
     description: 'Essays, assignments, research papers',
-    price: 'From $25'
+    price: 'Depend on Order'
   }
 ];
 
@@ -427,7 +427,7 @@ export default function Services() {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                src="https://youtube.com/shorts/9aTOO_PHFNs?si=6rWpSB05p9zx-sQY"
                 title="Our Services Showcase"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
