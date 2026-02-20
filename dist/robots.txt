@@ -1,0 +1,43 @@
+# robots.txt for Hanan Irfan Digital Group
+# Optimized for search engine crawling
+
+User-agent: *
+Allow: /
+
+# Disallow private/admin areas
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login
+Disallow: /api/
+
+# Allow important pages
+Allow: /$
+Allow: /about
+Allow: /services
+Allow: /how-it-works
+Allow: /projects
+Allow: /contact
+Allow: /faq
+Allow: /privacy
+Allow: /terms
+Allow: /sitemap
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://hidigitalgroup.vercel.app/sitemap.xml
+
+# Additional sitemaps for images and videos (when available)
+# Sitemap: https://hidigitalgroup.vercel.app/sitemap-images.xml
+# Sitemap: https://hidigitalgroup.vercel.app/sitemap-videos.xml
+
+# Block specific bots that may cause issues
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 2
+
+User-agent: SemrushBot
+Crawl-delay: 2
