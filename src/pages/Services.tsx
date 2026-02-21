@@ -412,32 +412,37 @@ export default function Services() {
         </section>
 
         {/* Video Section */}
-        <section className="py-20 lg:py-28 bg-[#0b0b12] px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-10">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-                See Our Services in Action
-              </h2>
-              <p className="text-[#b0b0c8]">
-                Watch how we deliver professional digital services to clients worldwide
-              </p>
-            </div>
-            
-            <div className="relative aspect-video bg-[#15151f] border border-[#2b2b3a] rounded-2xl overflow-hidden">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://youtube.com/shorts/9aTOO_PHFNs?si=6rWpSB05p9zx-sQY"
-                title="Our Services Showcase"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="absolute inset-0"
-              ></iframe>
-            </div>
-          </div>
-        </section>
-
+       <section className="py-20 lg:py-28 bg-[#0b0b12] px-4 sm:px-6 lg:px-8">
+  <div className="max-w-4xl mx-auto">
+    <div className="text-center mb-10">
+      <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+        See Our Services in Action
+      </h2>
+      <p className="text-[#b0b0c8]">
+        Watch how we deliver professional digital services to clients worldwide
+      </p>
+    </div>
+    
+    <div className="hero-animate relative">
+      <div className="relative aspect-video bg-gradient-to-br from-[#6c5dd3]/30 to-[#ff9ec7]/20 rounded-2xl overflow-hidden border border-[#2b2b3a]">
+        <div className="absolute inset-0 flex items-center justify-center">
+          <a 
+            href="https://youtube.com/shorts/9aTOO_PHFNs?feature=share" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="w-20 h-20 bg-[#6c5dd3] rounded-full flex items-center justify-center hover:bg-[#5a4dc0] transition-colors group"
+          >
+            <Play className="w-8 h-8 text-white ml-1 group-hover:scale-110 transition-transform" />
+          </a>
+        </div>
+        <div className="absolute bottom-4 left-4 right-4">
+          <p className="text-white text-sm font-medium">Watch Our Showreel</p>
+          <p className="text-[#b0b0c8] text-xs">See what we can do for you</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
         {/* Why Choose Us */}
         <section className="py-20 lg:py-28 bg-[#15151f] px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
