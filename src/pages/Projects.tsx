@@ -37,7 +37,7 @@ const projects: Project[] = [
     fullDescription: 'A comprehensive Islamic knowledge platform featuring daily hadiths, searchable collections, and user-friendly interface. Built with modern web technologies for optimal performance and accessibility. The platform serves thousands of users daily with authenticated Islamic content.',
     category: 'websites',
     tags: ['Web Development', 'React', 'Firebase', 'Islamic Content', 'SEO'],
-    image: '/project-hadith.jpg',
+    image: 'public\images\Hanan Irfan portfolio showcase (1) - Copy.png',
     link: 'https://hadithwisdomhub0.vercel.app',
     results: '10,000+ monthly active users, 95% user satisfaction'
   },
