@@ -1,75 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages (with correct .html extensions) -->
   <url>
-    <loc>https://hidigitalgroup.vercel.app/</loc>
+    <loc>https://hidigitalgroup.vercel.app/index.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://hidigitalgroup.vercel.app/about</loc>
+    <loc>https://hidigitalgroup.vercel.app/aboutuspge.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hidigitalgroup.vercel.app/services</loc>
+    <loc>https://hidigitalgroup.vercel.app/service.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://hidigitalgroup.vercel.app/how-it-works</loc>
+    <loc>https://hidigitalgroup.vercel.app/howitworks.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hidigitalgroup.vercel.app/projects</loc>
+    <loc>https://hidigitalgroup.vercel.app/projects.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hidigitalgroup.vercel.app/contact</loc>
+    <loc>https://hidigitalgroup.vercel.app/contact.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://hidigitalgroup.vercel.app/faq</loc>
+    <loc>https://hidigitalgroup.vercel.app/faq.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hidigitalgroup.vercel.app/privacy</loc>
+    <loc>https://hidigitalgroup.vercel.app/privacy.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hidigitalgroup.vercel.app/terms</loc>
+    <loc>https://hidigitalgroup.vercel.app/terms.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hidigitalgroup.vercel.app/sitemap</loc>
+    <loc>https://hidigitalgroup.vercel.app/sitemap.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://hidigitalgroup.vercel.app/login</loc>
+    <loc>https://hidigitalgroup.vercel.app/login.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hidigitalgroup.vercel.app/dashboard</loc>
+    <loc>https://hidigitalgroup.vercel.app/dashboard.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  <!-- Optional: Include other important pages if they exist -->
+  <!-- <url>
+    <loc>https://hidigitalgroup.vercel.app/blog.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url> -->
 </urlset>
